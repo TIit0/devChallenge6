@@ -15,6 +15,7 @@
     --blue: #2D9CDB;
     --green: #27AE60;
     --red: #EB5757;
+    --black: #100E1D;
 
 
 }
@@ -49,11 +50,17 @@ a {
 
 /* utility classses   */
 
-.serv-marg { margin-left: 22.5rem }
+.serv-marg {
+    margin-left: 22.5rem
+}
 
-.we-marg { margin-left: 11.3rem }
+.we-marg {
+    margin: 0 auto;
+}
 
-.card-marg { margin-left: 3.4rem; }
+.card-marg {
+    margin-left: 3.4rem;
+}
 
 /* end of template   */
 
@@ -242,6 +249,8 @@ a {
 /* we offer section */
 
 .we-offer {
+    /*   main centered portion      */
+    width: 80%;
     margin-top: 20rem;
     background-color: indianred;
 }
@@ -277,12 +286,20 @@ a {
     width: 6.7rem;
     height: 6.7rem;
     border-radius: 1.6rem;
-    
+
 }
 
-.we-offer__flex__icon--1 { background-color: var(--blue); }
-.we-offer__flex__icon--2 { background-color: var(--green); }
-.we-offer__flex__icon--3 { background-color: var(--red); }
+.we-offer__flex__icon--1 {
+    background-color: var(--blue);
+}
+
+.we-offer__flex__icon--2 {
+    background-color: var(--green);
+}
+
+.we-offer__flex__icon--3 {
+    background-color: var(--red);
+}
 
 .material-symbols-outlined {
     color: white;
@@ -309,7 +326,7 @@ a {
     font-size: 1.6rem;
     line-height: 2.4rem;
     color: var(--grey2);
-    
+
 }
 
 .we-offer__flex--button {
@@ -326,9 +343,278 @@ a {
     border-radius: 1.2rem;
 }
 
-.we-offer__flex--card:hover { box-shadow: 0 1rem 3rem rgba(51, 51, 51, 0.1);}
+.we-offer__flex--card:hover {
+    box-shadow: 0 1rem 3rem rgba(51, 51, 51, 0.1);
+}
 
 .we-offer__flex--card:hover .we-offer__flex--button {
     background-color: var(--blue);
     color: white;
+}
+
+/* end of we offer section  */
+
+
+
+/* start of good design section */
+
+.good-des {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20rem;
+}
+
+.good-des__h3 {
+    max-width: 44.8rem;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: var(--grey1);
+    margin-bottom: 18.2rem;
+}
+
+.good-des__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.good-des__flex__sub-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 14.1rem;
+}
+
+.good-des__flex__sub-flex--no-marg {
+    margin-bottom: 0;
+}
+
+.sub-flex__card-wrapper {}
+
+.sub-flex__card-wrapper--transform {
+    transform: translateY(-25%)
+}
+
+.sub-flex__card-wrapper__picture-container {
+    width: 54.5rem;
+    height: 54.5rem;
+}
+
+.picture-container__img {
+    display: block;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+
+.sub-flex__card-wrapper__p {
+    margin-top: 2rem;
+
+    font-weight: 300;
+    line-height: 2.1rem;
+    font-size: 1.4rem;
+    color: var(--grey3);
+}
+
+.sub-flex__card-wrapper__h4 {
+    font-weight: 500;
+    line-height: 3.6rem;
+    font-size: 2.4rem;
+    color: var(--grey1);
+}
+
+.sub-flex__card-wrapper__link {
+
+    transform: translateY(500%);
+    display: block;
+    text-align: end;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+/*   end of good design      */
+
+/* start of meet the team */
+
+.meet-team {
+    margin-top: 22rem;
+    background-color: darkkhaki;
+}
+
+.meet-team__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.meet-team__flex__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.meet-team__flex__text__p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--red);
+    margin-bottom: .7rem;
+
+}
+
+.meet-team__flex__text__h3 {
+    font-weight: 500;
+    line-height: 5.4rem;
+    font-size: 3.6rem;
+    color: var(--grey1);
+
+    width: 28rem;
+}
+
+.meet-team__flex__text__description {
+    margin-top: 1.4rem;
+
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    color: var(--grey2);
+
+    max-width: 27.3rem;
+}
+
+.meet-team__flex__gallery {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.meet-team__flex__gallery--container {
+    max-width: 32rem;
+    max-height: 32rem;
+}
+
+.meet-team__flex__gallery__picture-1 {
+    width: 100%;
+    max-width: 32rem;
+    height: auto;
+
+    border-radius: 2.4rem;
+}
+
+.meet-team__flex__gallery--column {
+    display: flex;
+    flex-direction: column;
+}
+
+.meet-team__flex__gallery__picture-2 {
+    width: 100%;
+    max-width: 26rem;
+    height: auto;
+
+    border-radius: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.meet-team__flex__gallery__picture-3 {
+    width: 100%;
+    max-width: 29rem;
+    height: auto;
+
+    border-radius: 2.4rem;
+}
+
+/* end of meet the team   */
+
+/* start of testimony  */
+
+.testimony {
+    background-color: coral;
+    margin-top: 29rem;
+}
+
+.testimony__p {
+    line-height: 5.4rem;
+    max-width: 93.7rem;
+    font-size: 3.6rem;
+    color: var(--grey1);
+}
+
+.testimony__profile {
+    margin-top: 4.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.testimony__profile--picture {
+    width: 8.2rem;
+    height: 8.2rem;
+    border-radius: 1.2rem;
+}
+
+.testimony__profile__text-flex {
+    margin-left: 3rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony__profile__text-flex--name {
+    line-height: 3.6rem;
+    font-size: 2.4rem;
+
+    color: var(--grey1);
+}
+
+.testimony__profile__text-flex--title {
+    line-height: 2.7rem;
+    font-size: 1.8rem;
+
+    color: var(--grey3);
+}
+
+/* end of testimony  */
+
+/* start of footer */
+
+.footer {
+    margin-top: 20rem;
+    padding: 4.2rem;
+    background-color: var(--black);
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__flex__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__flex__nav__link {
+    font-weight: 400;
+    line-height: 3.6rem;
+    font-size: 1.8rem;
+    color: var(--default);
+}
+
+.footer__flex__nav__link:hover {
+    color: var(--grey6);
+}
+
+.footer__flex__social {
+    display: flex; 
+    flex-direction: column;
+}
+
+.footer__flex__social__p {
+    font-family: var(--heeb);
+    font-weight: 800;
+    line-height: 5.2rem;
+    font-size: 3.6rem;
+
+    color: var(--grey6);
+}
+
+.footer__flex__social__flex-icons {
+
 }

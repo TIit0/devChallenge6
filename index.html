@@ -14,7 +14,8 @@
     rel="stylesheet">
 
   <!-- Google fonts end -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
@@ -23,6 +24,7 @@
 
 <body>
   <main class="main-flex">
+    <!-- start of header -->
     <header>
       <div class="nav">
         <p class="nav--brand">Edie</p>
@@ -50,7 +52,9 @@
         </div>
       </div>
     </header>
+    <!-- end of header -->
 
+    <!-- start of hero -->
     <section class="services">
       <a href="#" class="services__link serv-marg">Unhappy with your website?</a>
       <h1 class="services__h1 serv-marg">We create beautiful and fast web services</h1>
@@ -58,7 +62,8 @@
         <img class="services__img-container--img" src="images/heroImage.jpg" alt="team conference picture">
       </div>
       <h2 class="services__h2 serv-marg">Story, emotion and purpose</h2>
-      <p class="services__p serv-marg">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+      <p class="services__p serv-marg">We help transform your ideas into real world applications that will outperform
+        your toughest competition and help you achieve your strategic goals in short period of time.</p>
 
       <!-- mini form -->
       <form class="serv-marg">
@@ -69,9 +74,12 @@
         </div>
         <small class="message">error</small>
       </form>
+      <!-- mini form end -->
     </section>
+    <!-- end of hero -->
 
-    <section class="we-offer we-marg">
+    <!-- we offer section and main margin/centering container start -->
+    <article class="we-offer we-marg">
       <h3 class="we-offer__h3">We offer high demand services</h3>
       <div class="we-offer__flex">
 
@@ -82,7 +90,8 @@
           </div>
 
           <h4 class="we-offer__flex__h4 card-marg">UI/UX Design</h4>
-          <p class="we-offer__flex__p card-marg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          <p class="we-offer__flex__p card-marg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
+            ac nulla consequat aliquet id quis turpis.
           </p>
           <button class="we-offer__flex--button card-marg">Get started</button>
         </div>
@@ -92,7 +101,8 @@
             <span class="material-symbols-outlined">code</span>
           </div>
           <h4 class="we-offer__flex__h4 card-marg">Front End</h4>
-          <p class="we-offer__flex__p card-marg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          <p class="we-offer__flex__p card-marg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
+            ac nulla consequat aliquet id quis turpis.
           </p>
           <button class="we-offer__flex--button card-marg">Get started</button>
         </div>
@@ -102,20 +112,131 @@
             <span class="material-symbols-outlined">storage</span>
           </div>
           <h4 class="we-offer__flex__h4 card-marg">Back End</h4>
-          <p class="we-offer__flex__p card-marg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          <p class="we-offer__flex__p card-marg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus
+            ac nulla consequat aliquet id quis turpis.
           </p>
           <button class="we-offer__flex--button card-marg">Get started</button>
         </div>
-        
 
       </div>
-    </section>
+      <!-- end of we offer cards centering container continues -->
 
+      <!-- good design section start -->
+      <section class="good-des">
+        <h3 class="good-des__h3">Good design means good business</h3>
+
+        <div class="good-des__flex">
+
+          <div class="good-des__flex__sub-flex">
+            <div class="sub-flex__card-wrapper">
+              <div class="sub-flex__card-wrapper__picture-container">
+                <img class="picture-container__img" src="/images/smarthome.jpg" alt="UI of smart home">
+              </div>
+              <p class="sub-flex__card-wrapper__p">Full stack application</p>
+              <h4 class="sub-flex__card-wrapper__h4">Smart home dashboard</h4>
+            </div>
+
+            <div class="sub-flex__card-wrapper sub-flex__card-wrapper--transform">
+              <div class="sub-flex__card-wrapper__picture-container">
+                <img class="picture-container__img" src="/images/onboard.png" alt="UI of smart home">
+              </div>
+              <p class="sub-flex__card-wrapper__p">UX/UI design</p>
+              <h4 class="sub-flex__card-wrapper__h4">Onboard application</h4>
+            </div>
+          </div>
+
+          <div class="good-des__flex__sub-flex good-des__flex__sub-flex--no-marg">
+            <div class="sub-flex__card-wrapper">
+              <div class="sub-flex__card-wrapper__picture-container">
+                <img class="picture-container__img" src="/images/booking.png" alt="UI of booking system">
+              </div>
+              <p class="sub-flex__card-wrapper__p">Mobile application</p>
+              <h4 class="sub-flex__card-wrapper__h4">Booking system</h4>
+            </div>
+
+            <div class="sub-flex__card-wrapper sub-flex__card-wrapper--transform">
+              <div class="sub-flex__card-wrapper__picture-container">
+                <img class="picture-container__img" src="/images/juice-product.png" alt="front page of juice product">
+              </div>
+              <p class="sub-flex__card-wrapper__p">Front End applicati on</p>
+              <h4 class="sub-flex__card-wrapper__h4">Juice product homepage</h4>
+              <a href="#" class="sub-flex__card-wrapper__link">see more &rarr;</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- good design section end -->
+
+      <!-- meet the team start -->
+      <section class="meet-team">
+        <div class="meet-team__flex">
+
+          <div class="meet-team__flex__text">
+            <p class="meet-team__flex__text__p">Meet the team</p>
+            <h3 class="meet-team__flex__text__h3">We are chilled and a laidback team</h3>
+            <p class="meet-team__flex__text__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+
+          <div class="meet-team__flex__gallery">
+            <div class="meet-team__flex__gallery--container">
+
+              <img src="/images/person1.png" alt="team member" class="meet-team__flex__gallery__picture-1">
+
+            </div>
+
+            <div class="meet-team__flex__gallery--column">
+              <img src="/images/person2.png" alt="team member" class="meet-team__flex__gallery__picture-2">
+
+              <img src="/images/person3.png" alt="team member" class="meet-team__flex__gallery__picture-3">
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- meet the team end -->
+
+      <!-- testimony section start -->
+      <section class="testimony">
+        <p class="testimony__p">
+          “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”
+        </p>
+        <div class="testimony__profile">
+          <img src="/images/person4.png" alt="profile picture" class="testimony__profile--picture">
+
+          <div class="testimony__profile__text-flex">
+            <p class="testimony__profile__text-flex--name">Carlos Tran</p>
+            <p class="testimony__profile__text-flex--title">The Decorate Gatsby</p>
+
+          </div>
+        </div>
+      </section>
+      <!-- testimony section end -->
+    </article>
+    <!-- main margin/centering container end -->
   </main>
 
   <!-- End of main  -->
 
-  <footer></footer>
+  <footer class="footer">
+    <div class="footer__flex">
+      <nav class="footer__flex__nav">
+        <a href="#" class="footer__flex__nav__link">Home</a>
+        <a href="#" class="footer__flex__nav__link">Services</a>
+        <a href="#" class="footer__flex__nav__link">Our Works</a>
+        <a href="#" class="footer__flex__nav__link">Clients</a>
+        <a href="#" class="footer__flex__nav__link">Contact</a>
+      </nav>
+
+      <div class="footer__flex__social">
+        <p class="footer__flex__social__p">Edie</p>
+        <div class="footer__flex__social__flex-icons">
+          
+        </div>
+      </div>
+    </div>
+
+  </footer>
 
 </body>
 
