@@ -112,9 +112,7 @@ a {
 }
 
 
-.nav__links__item {}
 
-.nav__list__item--link {}
 
 
 .nav__list__item--link:hover {
@@ -388,7 +386,7 @@ a {
     margin-bottom: 0;
 }
 
-.sub-flex__card-wrapper {}
+
 
 .sub-flex__card-wrapper--transform {
     transform: translateY(-25%)
