@@ -278,6 +278,7 @@ a {
 }
 
 .we-offer__flex__icon {
+    margin-top: 4.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
