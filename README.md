@@ -1,6 +1,6 @@
 # Dev challenge 6 / Edie
 
-Interior consultant site
+Edie site
 ## Process:
 
 1. Practicing css
